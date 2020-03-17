@@ -5,7 +5,7 @@ from time import sleep
 # Time to wait until display should turn off after last motion detected
 timeUntilDisplayOff = 1800
 # The GPIO data pin to which the PIR sensor is connected
-pin = 14
+pin = 4
 
 pir = MotionSensor(pin)
 timer = timeUntilDisplayOff
